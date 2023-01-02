@@ -6,7 +6,7 @@
 @author         Catppuccin
 @updateURL      https://github.com/catppuccin/nitter/raw/main/src/NitterCatppuccin.user.css
 @preprocessor   stylus
-@var select theme "Theme" ["Latte", "Frappe", "Macchiato", "Mocha*", "Mocha-Old"]
+@var select theme "Theme" ["Latte", "Frappe", "Macchiato", "Mocha*"]
 @var select accent-color "Accent" ["Rosewater*", "Flamingo", "Pink", "Mauve", "Red", "Maroon", "Peach", "Yellow", "Green", "Teal", "Blue", "Sapphire", "Sky", "Lavender", "Gray"]
 ==/UserStyle== */
 @-moz-document domain("nitter.net"), domain("nitter.unixfox.eu"), domain("nitter.42l.fr"), domain("nitter.fdn.fr"), domain("nitter.1d4.us"), domain("nitter.kavin.rocks"), domain("nitter.namazso.eu"), domain("nitter.hu"), domain("bird.trom.tf"), domain("nitter.it"), domain("twitter.censors.us"), domain("nitter.grimneko.de"), domain("n.hyperborea.cloud"), domain("nitter.ca"), domain("twitter.076.ne.jp"), domain("nitter.mstdn.social"), domain("nitter.fly.dev"), domain("nitter.weiler.rocks"), domain("nitter.sethforprivacy.com"), domain("nttr.stream"), domain("nitter.tiekoetter.com"), domain("nitter.spaceint.fr"), domain("nitter.privacy.com.denitter.mastodon.pro"), domain("nitter.notraxx.chnitter.poast.org"), domain("nitter.bird.froth.zone"), domain("nitter.dcs0.hu"), domain("twitter.beparanoid.de"), domain("n.ramle.be"), domain("nitter.cz"), domain("nitter.privacydev.net"), domain("tweet.lambda.dance"), domain("nitter.kylrth.com"), domain("nitter.oishi-ra.men"), domain("nitter.foss.wtf"), domain("nitter.priv.pw"), domain("t.com.sb") {
@@ -140,39 +140,6 @@
         $base =          30, 30, 46
         $mantle =        24, 24, 37
         $crust =         17, 17, 27
-
-	}
-
-	else if (theme=="Mocha-Old") {
-
-		$type = dark
-
-        $rosewater =     245, 224, 220
-        $flamingo =      242, 205, 205
-        $pink =          245, 194, 231
-        $mauve =         221, 182, 242
-        $red =           242, 143, 173
-        $maroon =        232, 161, 174
-        $peach =         248, 189, 150
-        $yellow =        250, 227, 176
-        $green =         171, 233, 179
-        $teal =          181, 232, 224
-        $blue =          150, 205, 251
-        $sapphire =      116, 199, 236
-        $sky =           137, 220, 235
-        $lavender =      201, 203, 255
-        $text =          217, 224, 238
-        $subtext1 =      195, 186, 198
-        $subtext0 =      152, 139, 162
-        $overlay2 =      110, 108, 126
-        $overlay1 =      87, 82, 104
-        $overlay0 =      108, 112, 134
-        $surface2 =      88, 91, 112
-        $surface1 =      69, 71, 90
-        $surface0 =      48, 45, 65
-        $base =          30, 30, 46
-        $mantle =        26, 24, 38
-        $crust =         22, 19, 32
 
 	}
 
