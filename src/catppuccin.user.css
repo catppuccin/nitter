@@ -177,7 +177,6 @@
         @mantle: @catppuccin[@@lookup][@mantle];
         @crust: @catppuccin[@@lookup][@crust];
         @accent: @catppuccin[@@lookup][@@accentColour];
-        @contrast-color: @catppuccin[@@lookup][@@contrastColour];
 
         & when (@lookup =latte) {
         }
